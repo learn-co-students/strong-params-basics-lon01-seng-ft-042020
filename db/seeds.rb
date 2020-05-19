@@ -5,3 +5,14 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+posts = Post.create([
+    { title: "Friends",
+    description: "History of friendship 4 gilrs in NYC"
+}, 
+    { title: "Travel in California",
+    description: "San Diego, Los Angeles, San Fransico"
+}
+])
+
+puts "Successfully seeded"
